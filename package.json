@@ -10,7 +10,9 @@
     "build": "tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rambda": "^5.4.1"
+  },
   "devDependencies": {
     "ts-node-dev": "^1.0.0-pre.44",
     "tslint": "^6.1.2",
